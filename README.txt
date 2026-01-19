@@ -2,6 +2,8 @@
 
 This project is a mobile application developed with Flutter and Dart to control and calibrate a custom Audio Enhancement Unit (AEU). It functions as a complete fitting interface, allowing users to perform hearing tests and generating personalized audio processing profiles using the Wide Dynamic Range Compression (WDRC) algorithm.
 
+> ** Note:** This application is designed and optimized specifically for **Android** devices.
+
 ## Features
 
 ### WDRC Algorithm Implementation
@@ -21,11 +23,28 @@ The app ensures high-speed and reliable communication with the hardware (ESP32) 
 - Measures Hearing Level (HL) and Uncomfortable Level (UCL).
 - Visualizes results on an interactive audiogram chart.
 
+## Project Structure & Key Files
+
+Since this project relies heavily on hardware permissions, the following files are critical for configuration:
+
+- **Application Logic (Dart):**
+  `lib/main.dart`
+  *(Contains the entire WDRC algorithm, UI implementation, and BLE state management.)*
+
+- **Dependencies (YAML):**
+  `pubspec.yaml`
+  *(Manages packages such as `flutter_blue_plus`, `flutter_sound`, and `permission_handler`.)*
+
+- **Android Permissions (XML):**
+  `android/app/src/main/AndroidManifest.xml`
+  *(Configured for Bluetooth Connect/Scan, Fine Location, and Audio Recording permissions required for Android 12+.)*
+
 ## Technical Stack
 
 - **Framework:** Flutter
 - **Language:** Dart
 - **IDE:** Android Studio
+- **Platform:** Android
 - **Connectivity:** Bluetooth Low Energy (flutter_blue_plus)
 - **Audio:** PCM16 Tone Synthesis (flutter_sound)
 
@@ -36,7 +55,7 @@ The app ensures high-speed and reliable communication with the hardware (ESP32) 
 - Emirhan Garip
 
 ## App Screenshots
+<p align="center">
+  <img src="" alt="App Screenshots" width="800">
+</p>
 
-| Home Screen | Audiometry Test | Results & Fitting |
-|:-----------:|:---------------:|:-----------------:|
-| [Image]     | [Image]         | [Image]           |
