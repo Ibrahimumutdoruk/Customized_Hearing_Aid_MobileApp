@@ -56,5 +56,7 @@ Since this project relies heavily on hardware permissions, the following files a
 
 ## App Screenshots
 <p align="center">
-  <img src="<img width="763" height="538" alt="Image" src="https://github.com/user-attachments/assets/ad9c9db2-d974-410c-809a-fc8cdfbaf067" />" alt="App Screenshots" width="800">
+  <img src="<img width="763" height="538" alt="Image" src=" <img width="763" height="538" alt="Mobile_App" src="https://github.com/user-attachments/assets/caf255f8-4da3-4cc2-ac31-1eedc4b47933" />
+  " />" alt="App Screenshots" width="800">
 </p>
+
