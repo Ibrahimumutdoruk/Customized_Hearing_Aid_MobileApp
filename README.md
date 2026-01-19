@@ -1,4 +1,4 @@
-# Customized Hearing Aid App
+# Customized Hearing Aid  Mobile App
 
 This project is a mobile application developed with Flutter and Dart to control and calibrate a custom Audio Enhancement Unit (AEU). It functions as a complete fitting interface, allowing users to perform hearing tests and generating personalized audio processing profiles using the Wide Dynamic Range Compression (WDRC) algorithm.
 
@@ -58,6 +58,7 @@ Since this project relies heavily on hardware permissions, the following files a
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e2c75d09-eaa8-4648-beda-ab966a32196d" alt="Mobile_App" width="850">
 </p>
+
 
 
 
