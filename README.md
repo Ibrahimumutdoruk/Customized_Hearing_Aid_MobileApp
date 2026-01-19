@@ -55,6 +55,9 @@ Since this project relies heavily on hardware permissions, the following files a
 - Emirhan Garip
 
 ## App Screenshots
-<img width="763" height="538" alt="Mobile_App" src="https://github.com/user-attachments/assets/e2c75d09-eaa8-4648-beda-ab966a32196d" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e2c75d09-eaa8-4648-beda-ab966a32196d" alt="Mobile_App" width="850">
+</p>
+
 
 
